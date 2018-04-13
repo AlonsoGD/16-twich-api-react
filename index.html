@@ -4,25 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script rel="text/javascript" src="script.js"></script>
-    <title>Document</title>
+    <title>Twich Viewer</title>
 </head>
 <body>
     <div>
-      <label for="jscode">Enter code:</label>
-      <input type="text" id="jscode">
-      <button>Submit code</button>
+        <img class="cimage" src="https://en.facebookbrand.com/wp-content/uploads/2016/05/do12.jpg" width="50px">
+        <div class="ctitle"><a class="clink" href="#" target="_blank">Title of the channel</a></div>
+        <div class="cstatus">Online/Offline</div>
+        <div class="cviewers">Viewers Online</div>
+        <div class="cgame">Game</div>
     </div>
-
-    <p></p>
-  </body>
-<script>
-    var input = document.querySelector('input');
-    var btn = document.querySelector('button');
-    var para = document.querySelector('p');
-    btn.onclick = function() {
-    var code = input.value;
-    para.textContent = eval(code);
-    }
-</script>
+</body>
+<script rel="text/javascript" src="script.js"></script>
 </html>
