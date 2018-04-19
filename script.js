@@ -4,6 +4,8 @@
 let usersData = []
 let streamsData = []
 
+const MAINDIV = document.getElementById("main");
+
 const DOM_OBJECT = {
   cimage: document.getElementsByClassName("cimage"),
   ctitle: document.getElementsByClassName("ctitle"),
@@ -46,12 +48,21 @@ function callTwichAPI () {
 }
 
 function showInfo () {
-  for (let i = 1; i < DOM_OBJECT.cimage.length; i++) {
-    DOM_OBJECT.cimage[0].src = usersData[0].logo;
-    DOM_OBJECT.ctitle[0].innerHTML = usersData[0].display_name;
-    DOM_OBJECT.cstatus[0].innerHTML = streamsData[0].stream._id;
-    DOM_OBJECT.cviewers[0].innerHTML = streamsData[0].stream.viewers;
-    DOM_OBJECT.cgame[0].innerHTML = streamsData[0].stream.game; 
+  for (let i = 1; i < 5; i++) {
+    if (streamsData[i].stream !== null) {
+      MAINDIV.innerHTML += 
+        "<div>" 
+        + usersData[i].logo + " "
+        + usersData[i].display_name + " "
+        + streamsData[i].stream._id + " "
+        + streamsData[i].stream.viewers + " "
+        + streamsData[i].stream.game + " "
+        + "</div>";
+    }
+    // DOM_OBJECT.ctitle[i].textContent = usersData[i].display_name;
+    // DOM_OBJECT.cstatus[i].innerHTML = streamsData[i].stream._id;
+    // DOM_OBJECT.cviewers[i].innerHTML = streamsData[i].stream.viewers;
+    // DOM_OBJECT.cgame[i].innerHTML = streamsData[i].stream.game; 
   }
 }
 function main () {
