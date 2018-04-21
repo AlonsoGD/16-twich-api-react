@@ -89,9 +89,14 @@ ul:hover {
     #main {
         grid-template-columns: auto;
         grid-template-rows: auto;
+        padding: 20px 10px;
     }
     .linkContainer {
         font-size: 22px;
+        width: 70%;
+    }
+    .imgContainer {
+        width: 30%;
     }
 }
 
