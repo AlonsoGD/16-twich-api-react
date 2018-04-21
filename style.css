@@ -1,31 +1,97 @@
-li {
-    list-style-type: none;
+html {
+    background: #95deff;
+    font-family: 'Roboto', 'Roboto Condensed', sans-serif;
+
 }
 
+h1 {
+    font-size: 42px;
+}
+
+li {
+    list-style-type: none; 
+}
+
+li .inline {
+    display: inline;
+}
+
+ul {
+    border: solid 2px black;
+    padding: 15px;
+    margin: 0;
+    box-shadow: 5px 5px 8px #888888;
+}
+
+ul:hover {
+    cursor: pointer;
+}
+
+.offline {
+    background-color: #ff000075;
+}
+
+.online { 
+    background-color: #00ff7375;
+}
+
+.legendOnline {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border: solid 2px black;
+    background-color: #00ff7375;
+}
+
+.legendOffline {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border: solid 2px black;
+    background-color: #ff000075;
+}
+
+.imgContainer {
+    width: 20%;
+    text-align: left;
+    display: inline-block;
+}
+
+.linkContainer {
+    width: 80%;
+    position: absolute;
+    text-align: left;
+    display: inline-block;
+    font-size: 32px;
+}
 
 .profileImg {
     width: 50px;
 }
 
 #main {
-    padding: 150px;
+    padding: 20px 50px;
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-columns: 33% 33% 33%;
     grid-template-rows: 33% 33% 33%;
-    transition: all 2s linear;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
 }
 
 
 @media only screen and (max-width: 1400px) {
     #main {
-        grid-template-columns: auto auto;
+        grid-template-columns: 50% 50%;
         grid-template-rows: auto;
     }
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 800px) {
     #main {
         grid-template-columns: auto;
         grid-template-rows: auto;
+    }
+    .linkContainer {
+        font-size: 22px;
     }
 }
 
