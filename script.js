@@ -1,4 +1,4 @@
-let usersData = []
+
 let streamsData = []
 
 const MAINDIV = document.getElementById("main");
@@ -10,7 +10,7 @@ const showOnlineChannels = function (r) {
     + "<div class='imgContainer'><img class='profileImg' src='" 
       + r.stream.channel.logo + "'></div>" + "<div class='linkContainer'><a href='" + address + "'>" + r.stream.channel.display_name 
     + "</a></div></li>" 
-    + "<li>" + "Viewers: " + r.stream.viewers + "</li>" 
+    + "<li>" + "Viewers: " + r.stream.viewers.toLocaleString(undefined, { minimumFractionDigits: 0}) + "</li>" 
     + "<li>" + "Currently streaming: " + r.stream.game + "</li>"
   + "</lu>";
 };
@@ -46,7 +46,7 @@ const callTwichApi = function () {
             })
             .then(function(response) {
               showOfflineChannles(response);
-              usersData.push(response)
+              streamsData.push(response)
             })    
             .catch(function(error) {
               console.log('Request failed', error)
