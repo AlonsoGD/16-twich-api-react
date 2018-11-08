@@ -115,7 +115,7 @@ ul:hover {
         font-size: 26px;
     }
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 900px) {
     #main {
         grid-template-columns: auto;
         grid-template-rows: auto;
@@ -123,6 +123,25 @@ ul:hover {
     }
     .linkContainer {
         font-size: 22px;
+    }
+}
+
+
+@media only screen and (max-width: 440px) {
+    #main {
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        padding: 20px 10px;
+    }
+    .linkContainer {
+        font-size: 22px;
+    }
+    .flexcontainer {
+        display: block;
+        flex-direction: row;
+    }
+    .profileImg {
+        width: 100%;
     }
 }
 
