@@ -69,7 +69,9 @@ const callTwichApi = function () {
   }
   
   const URL = 'https://wind-bow.glitch.me/twitch-api/'
-  const CHANNELS = ['tsm_myth', 'FreeCodeCamp', 'shroud', 'OgamingSC2', 'cretetion', 'storbeck', 'habathcx', 'RobotCaleb', 'noobs2ninjas','riotgames','shadbasemurdertv','starladder1','beyondthesummit','ninja','esl_csgo','esltv_cs','imaqtpie','pgl_clean','lirik','lirikk','eleaguetvtest','summit1g','sodapoppin','meclipse','shroud','e3','twitch','dyrus','sgdq','speeddemosarchivesda','gdq','gamesdonequick','nl_kripp','tsm_theoddone','nightblue3','garenatw','Faceit','faceittv','asiagodtonegg3be0','dota2ti','dotati','starladder5','hireztv','dreamhackcs']
+  //const CHANNELS = ['tsm_myth', 'FreeCodeCamp', 'shroud', 'OgamingSC2', 'cretetion', 'storbeck', 'habathcx', 'RobotCaleb', 'noobs2ninjas','riotgames','shadbasemurdertv','starladder1','beyondthesummit','ninja','esl_csgo','esltv_cs','imaqtpie','pgl_clean','lirik','lirikk','eleaguetvtest','summit1g','sodapoppin','meclipse','e3','twitch','dyrus','sgdq','speeddemosarchivesda','gdq','gamesdonequick','nl_kripp','tsm_theoddone','nightblue3','garenatw','Faceit','faceittv','asiagodtonegg3be0','dota2ti','dotati','starladder5','hireztv','dreamhackcs']
+
+  const CHANNELS = ['tsm_myth', 'FreeCodeCamp', 'shroud', 'OgamingSC2', 'cretetion', 'storbeck', 'habathcx', 'RobotCaleb', 'noobs2ninjas','riotgames','shadbasemurdertv','starladder1','beyondthesummit','ninja','esl_csgo','esltv_cs','imaqtpie','pgl_clean','lirik','lirikk','eleaguetvtest','summit1g']
 
   let apiCallsPromises = [];
 
