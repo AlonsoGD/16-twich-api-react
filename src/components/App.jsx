@@ -1,8 +1,13 @@
 import React from "react";
+import Title from "./Title";
 
 class App extends React.Component {
   render() {
-    return <div>React App yeah!</div>;
+    return (
+      <div>
+        <Title />
+      </div>
+    );
   }
 }
 
