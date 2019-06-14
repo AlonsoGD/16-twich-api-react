@@ -1,12 +1,19 @@
 import React from "react";
 import Title from "./Title";
+import Legend from "./Legend";
 
 class App extends React.Component {
   render() {
     return (
-      <div>
-        <Title />
-      </div>
+      <>
+        <header>
+          <Title />
+        </header>
+        <div style={{ textAlign: "center" }}>
+          <Legend status="Online" />
+          <Legend status="Offline" />
+        </div>
+      </>
     );
   }
 }

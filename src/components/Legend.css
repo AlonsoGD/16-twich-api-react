@@ -1,0 +1,17 @@
+.legend {
+    position: relative;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border: solid 2px black;
+    margin: 0px 10px;
+    top: 2px;
+}
+
+.offline {
+    background-color: rgba(255, 0, 0, 0.424);
+}
+
+.online { 
+    background-color: rgba(0, 255, 114, 0.459);
+}
