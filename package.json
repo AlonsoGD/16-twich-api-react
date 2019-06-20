@@ -1,8 +1,8 @@
 {
   "name": "16-twich-api",
-  "homepage": "https://github.com/AlonsoGD/16-twich-api-react",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://alonsogd.github.io/16-twich-api-react",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",
