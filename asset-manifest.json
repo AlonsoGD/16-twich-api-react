@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/16-twich-api-react/static/css/main.8b2326ae.chunk.css",
+    "main.js": "/16-twich-api-react/static/js/main.5a4cb45f.chunk.js",
+    "main.js.map": "/16-twich-api-react/static/js/main.5a4cb45f.chunk.js.map",
+    "runtime~main.js": "/16-twich-api-react/static/js/runtime~main.d6ec1a65.js",
+    "runtime~main.js.map": "/16-twich-api-react/static/js/runtime~main.d6ec1a65.js.map",
+    "static/js/2.65aa1cca.chunk.js": "/16-twich-api-react/static/js/2.65aa1cca.chunk.js",
+    "static/js/2.65aa1cca.chunk.js.map": "/16-twich-api-react/static/js/2.65aa1cca.chunk.js.map",
+    "index.html": "/16-twich-api-react/index.html",
+    "precache-manifest.f270f06552efc0236b235bbd9f579479.js": "/16-twich-api-react/precache-manifest.f270f06552efc0236b235bbd9f579479.js",
+    "service-worker.js": "/16-twich-api-react/service-worker.js",
+    "static/css/main.8b2326ae.chunk.css.map": "/16-twich-api-react/static/css/main.8b2326ae.chunk.css.map"
+  }
+}
