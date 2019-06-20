@@ -43,7 +43,6 @@ class App extends React.Component {
           offlineChannels: OfflineStreamsData,
           onlineChannels: OnlineStreamsData
         });
-        console.log(this.state.offlineChannels, this.state.onlineChannels);
       })
       .catch((e) => {
         console.log(e + "Something wrong happened retreiving the data");
